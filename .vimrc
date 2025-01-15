@@ -15,12 +15,13 @@ else
   Plug 'roxma/vim-hug-neovim-rpc'
 endif
 
-" Deoplete Plugins.
+" Plugins.
 Plug 'deoplete-plugins/deoplete-jedi'
 
 " My Plugins, maked by takkii.
 Plug 'takkii/overlap'
 Plug 'takkii/kindness'
+Plug 'takkii/lovingyou'
 Plug 'takkii/vim-com'
 
 " appearance

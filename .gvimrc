@@ -3,7 +3,6 @@ let g:python3_host_prog=$HOME . '/scoop/apps/python311/current/python.exe'
 
 "LightLine
 let g:lightline = {
-      \ 'colorscheme': 'icebergDark',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             [ 'readonly', 'filename', 'modified' ],
@@ -174,7 +173,7 @@ set encoding=utf-8
 
 set fileencodings=utf-8,cp932
 set background=dark
-colorscheme iceberg
+colorscheme mrkn256
 set splitbelow
 set nobackup
 set noundofile

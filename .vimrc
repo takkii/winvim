@@ -28,8 +28,7 @@ Plug 'takkii/vim-com'
 Plug 'itchyny/lightline.vim'
 Plug 'maximbaz/lightline-ale'
 Plug 'dense-analysis/ale'
-Plug 'gkeep/iceberg-dark'
-Plug 'cocopon/iceberg.vim'
+Plug 'mrkn/mrkn256.vim'
 
 " Initialize plugin system
 call plug#end()

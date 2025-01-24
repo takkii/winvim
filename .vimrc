@@ -29,6 +29,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'maximbaz/lightline-ale'
 Plug 'dense-analysis/ale'
 Plug 'mrkn/mrkn256.vim'
+Plug 'nvie/vim-flake8'
 
 " Initialize plugin system
 call plug#end()

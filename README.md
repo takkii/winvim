@@ -26,6 +26,9 @@ git glone git@github.com:takkii/winvim.git
 # move.
 cd winvim
 
+# Eliminate dependent libraries
+pip3 install -r requirements.txt
+
 # Create, .vimrc and .gvimrc
 ruby win_install.rb
 

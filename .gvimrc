@@ -1,13 +1,15 @@
 " Settings
 let g:python3_host_prog=$HOME . '/scoop/apps/python311/current/python.exe'
 
-" flake8
-autocmd BufWritePost *.py call Flake8()
-autocmd FileType python map <buffer> <F3> :call Flake8()<CR> " キーバインド変更
-let g:flake8_quickfix_location="topleft" " Quickfixの位置
-let g:flake8_quickfix_height=7 " Quickfixの高さ
-let g:flake8_show_in_gutter=1  " 左端にシンボルを表示
-let g:flake8_show_in_file=1  " ファイル内にマークを表示
+" neomake
+let g:neomake_python_enabled_makers = ['python', 'flake8', 'mypy']
+
+autocmd FileType python setlocal omnifunc=jedi#completions
+if !exists('g:neocomplete#force_omni_input_patterns')
+    let g:neocomplete#force_omni_input_patterns = {}
+endif
+
+let g:neocomplete#force_omni_input_patterns.python = '\%([^. \t]\.\|^\s*@\|^\s*from\s.\+import \|^\s*from \|^\s*import \)\w*'
 
 "LightLine
 let g:lightline = {

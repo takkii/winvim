@@ -1,0 +1,11 @@
+dask[complete]
+flake8
+jedi
+joblib
+msgpack-python
+mypy-lang
+msgpack
+numpy
+pandas
+pynvim
+types-PyYAML

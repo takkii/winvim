@@ -30,6 +30,7 @@ Plug 'maximbaz/lightline-ale'
 Plug 'dense-analysis/ale'
 Plug 'mrkn/mrkn256.vim'
 Plug 'neomake/neomake'
+Plug 'cohama/lexima.vim'
 
 " Initialize plugin system
 call plug#end()

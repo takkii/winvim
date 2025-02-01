@@ -17,6 +17,7 @@ endif
 
 " Plugins.
 Plug 'deoplete-plugins/deoplete-jedi'
+Plug 'ngmy/vim-rubocop'
 
 " My Plugins, maked by takkii.
 Plug 'takkii/overlap'

@@ -32,6 +32,7 @@ Plug 'dense-analysis/ale'
 Plug 'mrkn/mrkn256.vim'
 Plug 'neomake/neomake'
 Plug 'cohama/lexima.vim'
+Plug 'kristijanhusak/defx-icons'
 
 " Initialize plugin system
 call plug#end()

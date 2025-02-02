@@ -22,7 +22,7 @@ Plug 'ngmy/vim-rubocop'
 " My Plugins, maked by takkii.
 Plug 'takkii/overlap'
 Plug 'takkii/kindness'
-Plug 'takkii/lovingyou'
+Plug 'takkii/graze'
 Plug 'takkii/vim-com'
 
 " appearance

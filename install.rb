@@ -60,7 +60,8 @@ begin
       Dark.prism
     rescue Exception => e
       puts e.backtrace
-    end
+  end
+  end
 rescue StandardError => ex
   puts ex.printStackTrace
 rescue Exception => er
@@ -68,4 +69,3 @@ rescue Exception => er
 ensure
   GC.compact
 end
-

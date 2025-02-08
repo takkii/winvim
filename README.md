@@ -30,7 +30,7 @@ cd winvim
 pip3 install -r requirements.txt
 
 # Create, .vimrc and .gvimrc
-ruby win_install.rb
+ruby install.rb
 
 # Delete, .vimrc and .gvimrc
 ruby delete.rb

@@ -10,15 +10,22 @@ Use scoop and vim-plug.
 # Use scoop.
 scoop install vim
 
-# use vim-plug
+# use scoop
 iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
     ni $HOME/vimfiles/autoload/plug.vim -Force
 
-# Default, folder directroy
+# use wsl2
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+# Windows side Default.
 mkdir GitHub
 
-# Move.
+# Windows side Move.
 cd GitHub
+
+# WSL2 side, cd ~/ (home directory).
+cd
 
 # Clone.
 git glone git@github.com:takkii/winvim.git

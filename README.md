@@ -28,7 +28,7 @@ cd GitHub
 cd
 
 # Clone.
-git glone git@github.com:takkii/winvim.git
+git clone git@github.com:takkii/winvim.git
 
 # move.
 cd winvim

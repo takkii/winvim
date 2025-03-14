@@ -24,7 +24,7 @@ Plug 'takkii/overlap'
 Plug 'takkii/kindness'
 Plug 'takkii/graze'
 Plug 'takkii/vim-com'
-Plug 'takkii/ruby-dict'
+Plug 'takkii/dict'
 
 " appearance
 Plug 'itchyny/lightline.vim'

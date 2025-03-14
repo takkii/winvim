@@ -24,6 +24,7 @@ Plug 'takkii/real'
 Plug 'takkii/phantom'
 Plug 'takkii/ein'
 Plug 'takkii/vim-com'
+Plug 'takkii/dict'
 
 " appearance
 Plug 'itchyny/lightline.vim'
